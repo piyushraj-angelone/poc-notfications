@@ -10,5 +10,4 @@ import {registerBackgroundMessageHandler} from './handlers';
 
 configure();
 registerBackgroundMessageHandler();
-
 AppRegistry.registerComponent(appName, () => App);
