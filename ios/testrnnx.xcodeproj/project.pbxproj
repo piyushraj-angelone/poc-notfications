@@ -38,6 +38,7 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = testrnnx/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = testrnnx/main.m; sourceTree = "<group>"; };
 		25362FEB2A7A6657008520B1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		25362FED2A7A74B0008520B1 /* testrnnx.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = testrnnx.entitlements; path = testrnnx/testrnnx.entitlements; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-testrnnx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testrnnx.debug.xcconfig"; path = "Target Support Files/Pods-testrnnx/Pods-testrnnx.debug.xcconfig"; sourceTree = "<group>"; };
 		44B427B927DC8D6223F6DA5F /* Pods_testrnnx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testrnnx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49D826A6CE9D1AFCE2C9232C /* Pods_testrnnx_testrnnxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testrnnx_testrnnxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +89,7 @@
 		13B07FAE1A68108700A75B9A /* testrnnx */ = {
 			isa = PBXGroup;
 			children = (
+				25362FED2A7A74B0008520B1 /* testrnnx.entitlements */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -503,6 +505,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = testrnnx/testrnnx.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = testrnnx/Info.plist;
@@ -530,6 +533,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = testrnnx/testrnnx.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = testrnnx/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
