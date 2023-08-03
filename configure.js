@@ -1,5 +1,5 @@
 import PushNotification from 'react-native-push-notification';
-import {createChannel, handleNotifications} from './handlers';
+import {createChannel} from './handlers';
 
 const configure = () => {
   PushNotification.configure({
