@@ -5,7 +5,7 @@ const configure = () => {
   PushNotification.configure({
     onRegister: function (token) {},
 
-    onRegistrationError: function (err) {
+    onRegistrationError: function () {
       console.error('Registration Error!!');
     },
 
